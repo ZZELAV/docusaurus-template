@@ -15,6 +15,7 @@ const config = {
   favicon: 'data/favicon.ico',
   organizationName: 'zzelav', // github user name
   projectName: 'docusaurus-template', // repo name
+  trailingSlash: true,
 
   i18n: {
     defaultLocale: 'de',
