@@ -4,3 +4,5 @@ pagination_next: null
 ---
 
 # Doku
+
+[Example](./example.md)
