@@ -1,10 +1,10 @@
 /* FONTS */
 
 /* text font */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* code font */
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 /* DOCUSAURUS/INFIMA VARIABLES */
 
@@ -19,8 +19,8 @@
   --ifm-code-font-size: 90%;
   --ifm-code-border-radius: 0;
   --ifm-alert-border-radius: 0;
-  --ifm-font-family-base: "Open Sans", sans-serif;
-  --ifm-font-family-monospace: "Source Code Pro", monospace;
+  --ifm-font-family-base: "Roboto", sans-serif;
+  --ifm-font-family-monospace: "Roboto Mono", monospace;
   --ifm-font-color-footer: #7b7f8a;
   --ifm-heading-font-weight: normal;
   --ifm-heading1-font-size: 2.5rem;
@@ -45,6 +45,10 @@ h5 { font-size: var(--ifm-heading5-font-size); }
 h6 { font-size: var(--ifm-heading6-font-size); }
 
 /* NAVBAR */
+
+.navbar__title {
+  letter-spacing: .07em;
+}
 
 .header-github-link:hover { opacity: 0.6; }
 .header-github-link:before {
