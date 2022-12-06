@@ -137,7 +137,7 @@ const config = {
             ],
           },
         ],
-        copyright: `v0.0<br>Copyright © ${new Date().getFullYear()} Docusaurus-template, Valentino Panico`,
+        copyright: `v0.0<br>Copyright © ${new Date().getFullYear()} Docusaurus-template, Valentino Panico. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
