@@ -102,7 +102,7 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Links',
+            title: '// Links',
             items: [
               {
                 label: 'Home',
