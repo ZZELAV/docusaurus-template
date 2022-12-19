@@ -74,6 +74,14 @@ h6 {
 html[data-theme="dark"] .header-github-link:before {
   background: url(/data/github_logo_dark.svg) no-repeat;
 }
+.hash-link::before {
+  content: "><" !important;
+  display: inline-block;
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+}
 
 /* SIDEBAR */
 
