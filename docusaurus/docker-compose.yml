@@ -9,6 +9,6 @@ services:
     volumes:
       - ./:/app
       - ignore:/app/node_modules/
-  
+
 volumes:
   ignore:
