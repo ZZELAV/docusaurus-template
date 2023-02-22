@@ -87,7 +87,8 @@ html[data-theme="dark"] .header-github-link:before {
 /* SIDEBAR */
 
 .menu__list-item-collapsible,
-.menu__link {
+.menu__link,
+.menu__caret {
   border-radius: 0;
 }
 
