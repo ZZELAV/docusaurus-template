@@ -45,17 +45,18 @@ const config = {
     ],
   ],
 
-  // plugins: [
-  //   [
-  //     "@docusaurus/plugin-content-docs",
-  //     {
-  //       id: "appendix",
-  //       path: "appendix",
-  //       routeBasePath: "appendix",
-  //       sidebarPath: require.resolve("./sidebars.js"),
-  //     },
-  //   ],
-  // ],
+  plugins: [
+    "docusaurus-plugin-image-zoom",
+    //   [
+    //     "@docusaurus/plugin-content-docs",
+    //     {
+    //       id: "appendix",
+    //       path: "appendix",
+    //       routeBasePath: "appendix",
+    //       sidebarPath: require.resolve("./sidebars.js"),
+    //     },
+    //   ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -66,6 +67,15 @@ const config = {
       docs: {
         sidebar: {
           autoCollapseCategories: true,
+        },
+      },
+      zoom: {
+        selector: "img",
+        background: {
+          dark: "rgb(32, 35, 42)",
+        },
+        config: {
+          margin: 100,
         },
       },
       navbar: {
